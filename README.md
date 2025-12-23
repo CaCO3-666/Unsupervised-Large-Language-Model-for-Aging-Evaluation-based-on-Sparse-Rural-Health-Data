@@ -1,16 +1,16 @@
 # **Biological Age Estimation Framework**
 
-This repository contains the official implementation of the code for the paper: **"\Unsupervised Large Language Model for Aging Evaluation based on Sparse Rural Health Data"**.
+This repository contains the official implementation of the code for the paper: **"Unsupervised Large Language Model for Aging Evaluation based on Sparse Rural Health Data"**.
 
 This framework utilizes Large Language Models (LLMs) via Ollama to estimate biological age and system-specific aging patterns based on multidimensional clinical health records.
 
 ## **📋 Table of Contents**
 
-* [Prerequisites] 
-* [Installation] 
-* [Data Format]
-* [Usage]
-* [License]
+* [Prerequisites](https://www.google.com/search?q=%23prerequisites)  
+* [Installation](https://www.google.com/search?q=%23installation)  
+* [Data Format](https://www.google.com/search?q=%23data-format)  
+* [Usage](https://www.google.com/search?q=%23usage)  
+* [License](https://www.google.com/search?q=%23license)
 
 ## **🛠 Prerequisites**
 
@@ -23,7 +23,7 @@ This framework utilizes Large Language Models (LLMs) via Ollama to estimate biol
 
 This code depends on Ollama. Please ensure you have pulled the model you intend to use (e.g., Llama 3, Mistral, MedLlama).
 
-\# Example: Pulling Llama3.1:70b  
+\# Example: Pulling Llama 3.1 70b  
 ollama pull llama3.1:70b
 
 ## **📦 Installation**
@@ -55,7 +55,7 @@ You can run the script using the command line. You can configure the parameters 
 **Basic usage with dummy data:**
 
 \# Set the model name you want to use  
-export OLLAMA\_MODEL="llama3.1:70b"   
+export OLLAMA\_MODEL="llama3.1:70b"  
 export OLLAMA\_HOST="http://localhost:11434"
 
 \# Run the script  
@@ -70,4 +70,4 @@ python main\_code.py \--input dummy\_data.csv \--output results.csv
 
 ## **📄 License**
 
-This project is licensed under the MIT License \- see the LICENSE file for details. 
+This project is licensed under the MIT License \- see the LICENSE file for details.
