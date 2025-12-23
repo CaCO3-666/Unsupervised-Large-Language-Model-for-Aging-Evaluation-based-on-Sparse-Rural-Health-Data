@@ -1,0 +1,1 @@
+pandas>=1.3.0requests>=2.25.0tqdm>=4.60.0argparse
