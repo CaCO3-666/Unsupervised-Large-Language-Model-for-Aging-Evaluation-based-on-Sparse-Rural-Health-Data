@@ -24,7 +24,7 @@ This framework utilizes Large Language Models (LLMs) via Ollama to estimate biol
 This code depends on Ollama. Please ensure you have pulled the model you intend to use (e.g., Llama 3, Mistral, MedLlama).
 
 \# Example: Pulling Llama 3.1 70b  
-echo "ollama pull llama3.1:70b"
+ollama pull llama3.1:70b
 
 ## **📦 Installation**
 
